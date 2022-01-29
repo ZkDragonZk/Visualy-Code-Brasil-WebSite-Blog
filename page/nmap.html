@@ -1,4 +1,3 @@
-<?php
 <html>
     <head>
     <meta charset="UTF-8">
@@ -104,6 +103,26 @@
                             <p class="tst">nmap -sp 12.0.0.0/24</p>
                             <p>ㅤㅤㅤ</p>
                             <p>A opção <b>-sP</b>  envia um ICMP echo request e um pacote TCP para a porta 80 por padrão. Quando executada por um usuário sem privilégios, um pacote SYN é enviado (usando uma chamada connect()) para a porta 80 no alvo.</p>
+                            <p><span>fontes:<a href="https://nmap.org/" class="fontes"> nmap</a></span></p>
+                        </div>
+                        <!--box-1-------------->
+                        <div class="article-text-box">
+                            <strong>Detectar As Configurações Do Firewall</strong>
+                            <p>A detecção de configurações de firewall pode ser útil durante testes de penetração e varreduras de vulnerabilidades . Várias funções podem ser usadas para detectar configurações de firewall em determinados hosts, mas o sinalizador <b>-sA</b>  é o mais comum.</p>       
+                            <p>ㅤㅤㅤ</p>
+                            <p class="tst">nmap -sA 12.0.0.0</p>
+                            <p>ㅤㅤㅤ</p>
+                            <p>O uso do sinalizador <b>-sA</b> informará se um firewall está ativo no host. Isso usa uma varredura ACK para receber as informações.</p>
+                            <p><span>fontes:<a href="https://nmap.org/" class="fontes"> nmap</a></span></p>
+                        </div>
+                        <!--box-1-------------->
+                        <div class="article-text-box">
+                            <strong>Varreduras e Tempos Agressivos</strong>
+                            <p>Às vezes, você pode precisar fazer uma varredura mais agressiva ou deseja executar uma varredura rápida. Você pode controlar isso através do uso dos mecanismos de temporização. No NMAP, o tempo controla a velocidade e a profundidade da varredura.</p>       
+                            <p>ㅤㅤㅤ</p>
+                            <p class="tst">nmap -T5 12.0.0.0</p>
+                            <p>ㅤㅤㅤ</p>
+                            <p>Uma varredura agressiva será mais rápida, mas também pode ser mais perturbadora e imprecisa. Existem outras opções, como varreduras T1, T2, T3 e T4. Para a maioria das varreduras, os tempos <b>T3</b> e <b>T4</b>  serão suficientes.</p>
                             <p><span>fontes:<a href="https://nmap.org/" class="fontes"> nmap</a></span></p>
                         </div>
                     </div>
