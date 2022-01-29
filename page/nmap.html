@@ -1,5 +1,5 @@
-  <!--doctype html-->
-  <html>
+<?php
+<html>
     <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -96,7 +96,18 @@
                             <p>Para varrer a rede a procura de hosts deve-se utilizar o parâmetro <b>-sP</b>  que irá fazer uma busca em uma rede que eu especificar me retornando o host identificado pela ip que o mesmo recebeu bem como o seu endereço físico MAC.</p>
                             <p><span>fontes:<a href="https://nmap.org/" class="fontes"> nmap</a></span></p>
                         </div>
+                        <!--box-1-------------->
+                        <div class="article-text-box">
+                            <strong>Descobrir Endereços IP Numa Rede</strong>
+                            <p>Considere que pretende saber quais os endereços IP "ativos" numa determinada rede de dados. Com o NMAP é muito simples! Para tal basta que execute o comando nmap <b>-sP</b> "rede" O resultado da execução deste comando permite, por exemplo, saber que outras máquinas andam na sua rede.</p>       
+                            <p>ㅤㅤㅤ</p>
+                            <p class="tst">nmap -sp 12.0.0.0/24</p>
+                            <p>ㅤㅤㅤ</p>
+                            <p>A opção <b>-sP</b>  envia um ICMP echo request e um pacote TCP para a porta 80 por padrão. Quando executada por um usuário sem privilégios, um pacote SYN é enviado (usando uma chamada connect()) para a porta 80 no alvo.</p>
+                            <p><span>fontes:<a href="https://nmap.org/" class="fontes"> nmap</a></span></p>
+                        </div>
                     </div>
+
                 </div>
                 <!--side-lt----------->
                 <div class="side-lt">
