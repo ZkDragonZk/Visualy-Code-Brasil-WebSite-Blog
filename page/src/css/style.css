@@ -347,12 +347,12 @@ nav .menu-btn{
     border-right: 1px solid rgba(0,0,0,0.13);
     padding: 30px;
 }
-.side-ad{
+.side-lt{
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
-.side-ad a{
+.side-lt a{
     position: fixed;
 }
 .article-main-heading{
@@ -440,7 +440,7 @@ nav .menu-btn{
         width:80%;
         margin: auto;
     }
-    .side-ad{
+    .side-lt{
         display: none;
     }
 }
