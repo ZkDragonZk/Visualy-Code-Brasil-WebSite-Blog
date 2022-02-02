@@ -1,0 +1,105 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="src/css/style.css"/>
+    <title>APT-GET ERROR - ARTIGO VISUALY</title>    
+</head>
+    <body>
+            <!--navigation----------------------------->
+            <div class="navigation">
+                <a href="../index.html" class="logo"><i class=""></i>VISUALY CODE BRASIL</a>
+            </div>
+        
+            <section id="blog-artcile">
+
+                <div class="side-lt">
+                    <a href="#">
+                        <img alt="ads" src="src/img/anuncios/anuncio02.png">
+                    </a>
+               
+                </div>
+
+                <div class="article-container">
+                   
+                    <div class="article-main-heading">
+                        <h1>Aprenda Corrir O Erro /var/lib/dpkg/lock</h1>
+                    </div>
+
+                    <div class="by-date">
+                        <!--name------->
+                        <div class="article-by">
+                            <i class="far fa-user"></i>
+                            <span>Honeys ADM</span>
+                        </div>
+                        <!--date------->
+                        <div class="article-date">
+                            <i class="far fa-clock"></i>
+                            <p><span>22</span>-<span>02</span>-<span>2022</span></p>
+                        </div>
+                    </div>
+                    <!--article-img--------------------------------->
+                    <div class="article-img">
+                        <img alt="img" src="src/img/blog/error-apt.png"/>
+                    </div>
+                    <!--ad-------------------------------------->
+                    <div class="content-ad">
+                        <a href="#">
+                            <img alt="ads" src="src/img/anuncios/anuncio.png">
+                        </a>
+                    </div>
+                    <!--text----------------------------------->
+                    <div class="article-text">
+                        <!--box-1-------------->
+                        <div class="article-text-box">
+                            <strong>Porque da esse erro?</strong>
+                            <p>Este é um erro comum em distribuições baseadas no Debian, como o Ubuntu, Mint e outras, ocasionado por vários problemas diferentes, mas que pode ser corrigido de forma simples, e não se preocupe, não vai causar nenhum dano ao sistema. Então, o sistema bloqueia o apt para que outro processo não tente utilizar o gerenciador de pacotes em simultâneo. Mas, é possível liberar removendo o bloqueio.</p>
+                            <p>ㅤㅤㅤ</p>
+                            <p><span>fontes:<a href="../index.html" class="fontes"> Visualy Code Brasil</a></span></p>
+                        </div>
+                        <!--box-1-------------->
+                        <div class="article-text-box">
+                            <strong>Como Resolver? [Primeiro Metado]</strong>
+                            <p>Neste caso, procedemos de forma diferente para resolver o problema – simplesmente removemos os arquivos de trava.</p>
+                            <p>ㅤㅤㅤ</p>
+                            <p class="tst"> $ sudo rm /var/lib/apt/lists/lock
+                            <p class="tst"> $ sudo rm /var/lib/dpkg/lock
+                            <p class="tst"> $ sudo rm /var/lib/dpkg/lock-frontend
+                            <p class="tst"> $ sudo rm /var/cache/apt/archives/lock</p>
+                            <p>ㅤㅤㅤ</p>
+                            <p>Depois disto, o sistema <b>apt</b> deve estar novamente liberado, e seremos capazes de executar as tarefas normalmente, como atualizar listas de repositórios, atualizar programas e instalar ou excluir pacotes do sistema. depois lembre-se de colocar essa linha de codigo para configurar o <b>dpk</b></p>
+                            <p>ㅤㅤㅤ</p>
+                            <p class="tst">$ sudo dpkg --configure -a</p>
+                            <p>ㅤㅤㅤ</p>
+                            <p><span>fontes:<a href="../index.html" class="fontes"> Visualy Code Brasil</a></span></p>
+                        </div>
+                </div>
+                <!--side-lt----------->
+                <div class="side-lt">
+                    <a href="#">
+                        <img alt="ads" src="src/img/anuncios/anuncio02.png">
+                    </a>
+                </div>
+            </section>
+            <!--ad----------------------->
+            <div class="ad">
+                <a href="#">
+                    <img alt="ads" src="src/img/anuncios/anuncio.png">
+                </a>
+            </div>
+        <!--footer------------------------------------->
+        <footer>
+            <span class="copyright">copyright 2022 - Visualy Studio Code Brasil </span>
+            <div class="footer-social">
+                <a href="https://discord.gg/ZzazUD8uAn"><i class="fab fa-discord"></i></a>
+                <a href="https://www.linkedin.com/in/julio-cezar-de-paula-baldo-51774321a/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.youtube.com/channel/UCLln4dGTa1huQuTLlHaJXQA"><i class="fab fa-youtube"></i></a>
+                <a href="https://github.com/ZkDragonZk"><i class="fab fa-github"></i></a>
+            </div>
+        </footer>
+    </body>
+    </html>
