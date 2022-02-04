@@ -1,15 +1,17 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: poppins;
     box-sizing: border-box;
 }
+
 body{
     margin: 0px;
     padding: 0px;
     font-family: poppins;
     background-color: #f4f6f8;
 }
+
 a{
     text-decoration: none;
 }
@@ -425,9 +427,11 @@ nav .menu-btn{
     margin-top: 4px;
     font-weight: 500;
 }
-.article-text-box p{
+/* .article-text-box p{
     color: #6d6d6d;
-}
+} */
+
+
 /*---Making-article-page-responsive--------------------*/
 @media(max-width:1250px){
     #blog-artcile{
@@ -478,7 +482,11 @@ nav .menu-btn{
 }
 
 .fontes {
-    color: #6d6d6d;
+    color: #f3f2a7;
+}
+
+.fontess {
+    color: #313131;
 }
 
 .fontes:hover {
@@ -494,9 +502,14 @@ nav .menu-btn{
 }
 
 b {
-    color: #484f61;
+    color: #6b7797;
+}
+
+p {
+    color: #6d6d6d;
 }
 
 .tst {
-    background-color: #f4f6f8;
+    color: aliceblue;
+    background-color: #333333;
 }
